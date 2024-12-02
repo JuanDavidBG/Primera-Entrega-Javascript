@@ -8,3 +8,4 @@ console.log(resta);
 
 
 import {} from "./Ejercicios.js"
+
