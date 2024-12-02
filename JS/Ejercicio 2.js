@@ -8,7 +8,7 @@ const esAlfanumerico = /^[a-zA-Z0-9]+$/.test(ContraIngresada);
 
 if (esAlfanumerico) {
   const coincide = ContraGuardada.toLowerCase() === ContraIngresada.toLowerCase(); //El método toLowerCase() devuelve el valor en minúsculas de la cadena que realiza la llamada.
-  console.log(coincide ? "La contraseña coincide." : "La contraseña no coincide."); // ? operador ternario estamos evaluando la condicionales
+  console.log(coincide ? "La contraseña coincide." : "La contraseña no coincide."); // ? operador ternario estamos evaluando la condiciones
 } else {
   console.log("La contraseña debe ser alfanumérica.");
 }
