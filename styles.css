@@ -1,4 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
 body{
+    background-color: #00eeff7a;
     margin: 0; 
 }
 header{
@@ -7,6 +10,7 @@ header{
     display: flex;
     justify-content: center;
     color: #00eeff;
+    box-shadow: #00eeff;
 }
 
 main{
@@ -56,3 +60,9 @@ input{
     font-weight: bold;
 }
 
+h1{
+    font-family: "Lora", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}

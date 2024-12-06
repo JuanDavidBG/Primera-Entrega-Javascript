@@ -5,17 +5,17 @@ while (true) {
   let edad = prompt("Ingrese la edad")
   console.clear()
   if (edad < 0){
-    console.log("La edad no puede ser negativa")
+    alert("La edad no puede ser negativa")
     continue
   }
   else if (edad < 18){
-    console.log("Usted es menor de edad")
+    alert("Usted es menor de edad")
   }
   else if (edad>=18) {
-    console.log("Usted es mayor de edad")
+    alert("Usted es mayor de edad")
   }
   else {
-    console.log("Ingrese solo numeros positivos")
+    alert("Ingrese solo numeros positivos")
     continue
   }
   break
